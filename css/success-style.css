@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: #F09819;
+    background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);
+    background: linear-gradient(to right, #EDDE5D, #F09819);
+    height: 100vh;
+    width: 100%;
+
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 7rem;
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+span {
+    color: slategrey;
+}
